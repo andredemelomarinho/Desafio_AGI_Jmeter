@@ -56,11 +56,11 @@ Baixe o Apache JMeter em: https://jmeter.apache.org/download_jmeter.cgi
 Extraia o arquivo ZIP/TGZ
 Certifique-se de que o Java JDK 8+ está instalado:
 bash
-Copy
+
 java -version
 2. Verificar instalação
 bash
-Copy
+
 cd apache-jmeter-5.6.3/bin
 ./jmeter --version
 Saída esperada:
@@ -114,7 +114,7 @@ Regex Extractor para capturar flightId dinamicamente
 Teste de Carga (Load Test)
 Via linha de comando (recomendado)
 bash
-Copy
+
 cd apache-jmeter-5.6.3/bin
 
 ./jmeter -n \
@@ -129,7 +129,7 @@ Parâmetros:
 -e -o: gera HTML Dashboard na pasta especificada
 Via GUI (apenas para validação inicial)
 bash
-Copy
+
 ./jmeter
 File → Open → blazedemo_load_test.jmx
 Ajustar parâmetros se necessário
@@ -137,7 +137,7 @@ Run → Start
 Visualizar resultados em tempo real (não recomendado para testes longos)
 Teste de Pico (Spike Test)
 bash
-Copy
+
 cd apache-jmeter-5.6.3/bin
 
 ./jmeter -n \
